@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 py-10 grid grid-cols-1 md:grid-cols-4 gap-8">
         <div>
           <h4 className="font-semibold text-gray-900 dark:text-white mb-2">SEEG</h4>
-          <p>La Société d'Énergie et d'Eau du Gabon vous accompagne dans votre quotidien.</p>
+          <p>La Société d&#39;Énergie et d&#39;Eau du Gabon vous accompagne dans votre quotidien.</p>
         </div>
 
         <div>
