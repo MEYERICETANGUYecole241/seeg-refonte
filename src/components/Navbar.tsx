@@ -91,7 +91,7 @@ export default function Navbar() {
         {/* Groupe Logo et Titre */}
         <div className="flex items-center space-x-2 flex-shrink-0 min-w-0"> {/* min-w-0 pour permettre au contenu de rétrécir si nécessaire */}
           <Image
-            src="/logo.png"
+            src="/SEEG_logo.jpg"
             alt="Logo Ministère"
             width={60}
             height={60}
