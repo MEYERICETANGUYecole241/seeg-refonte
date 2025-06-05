@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-50 border-t text-sm text-gray-600 dark:bg-gray-900 dark:text-gray-300 mt-10">
+    <footer className="bg-blue-100 border-t text-sm text-gray-600 dark:bg-gray-900 dark:text-gray-300 mt-10">
       <div className="max-w-7xl mx-auto px-6 py-10 grid grid-cols-1 md:grid-cols-4 gap-8">
         <div>
           <h4 className="font-semibold text-gray-900 dark:text-white mb-2">SEEG</h4>
