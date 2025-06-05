@@ -10,15 +10,18 @@ export default function Hero() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const bgImages = [
-    '/eau-seeg.webp',
-    '/seeg.jpg',
-    '/seeg2.jpeg',
-    '/seeg3.jpeg',
-    '/seeg4.jpeg',
-    '/seeg5.jpeg',
-    '/seeg6.jpeg',
-    '/seeg 7.jpeg', // Nom corrigé
-    '/SEEG8.jpg',
+    '/img1.webp',
+    '/img2.jpeg',
+    '/img7.jpeg',
+    '/img3.jpeg',
+    '/img5.jpg',
+    '/SEEG1.jpg',
+    '/img8.jpg',
+    '/im9.jpeg',
+    '/SEEG_logo.jpg', // Nom corrigé
+    '/compteur-seeg.webp',
+    '/images1.jpeg',
+    '/images2.jpeg',
   ];
 
   useEffect(() => {

@@ -2,7 +2,7 @@
 import './globals.css'
 import { Roboto } from 'next/font/google'
 import Navbar from '@/components/Navbar'
-import Footer  from '@/components/Footer'
+import Footer from '@/components/Footer'
 
 const roboto = Roboto({
   subsets: ['latin'],
@@ -18,7 +18,7 @@ export const metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="fr" className={roboto.variable}>
-      <body>
+      <body className="bg-gray-100 text-black-100">
         <Navbar />
         <main>{children}</main>
         <Footer />
