@@ -7,6 +7,7 @@ import { Button } from '@/components/ui/button';
 import Image from 'next/image';
 
 
+
 export default function Navbar() {
 
   
@@ -24,8 +25,9 @@ export default function Navbar() {
     {
     label: 'La SEEG',
     children: [
-      { href: '/la-seeg/historique', label: 'Historique' },
-      { href: '/la-seeg/organisation', label: 'Organisation' },
+      { href: 'https://www.seeg-gabon.com/la_seeg/mot-du-dg', label: 'Directeur Général'},
+      { href: 'https://www.seeg-gabon.com/la_seeg/historique', label: 'Historique' },
+      { href: '/organisation', label: 'Organisation' },
       { href: '/la-seeg/mission', label: 'Notre mission' },
       { href: '/la-seeg/gouvernance', label: 'Gouvernance' },
     ],
